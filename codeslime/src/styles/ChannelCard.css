@@ -1,0 +1,77 @@
+.channel-card {
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.channel-card h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.channel-card p {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.channel-card button {
+    margin-right: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.channel-card button:hover {
+    background-color: #0056b3;
+}
+
+.channel-card .active {
+    background-color: #28a745 !important;
+}
+
+.channel-card textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.error-message {
+    color: #dc3545;
+    margin-top: 10px;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 600px) {
+    .channel-card {
+        padding: 10px;
+    }
+
+    .channel-card h3 {
+        font-size: 1.2rem;
+    }
+
+    .channel-card p {
+        font-size: 0.9rem;
+    }
+
+    .channel-card button {
+        padding: 6px 12px;
+        font-size: 0.9rem;
+    }
+
+    .channel-card textarea {
+        padding: 8px;
+    }
+}

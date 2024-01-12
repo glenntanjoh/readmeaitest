@@ -1,0 +1,61 @@
+.comments-list {
+    width: 100%;
+}
+
+.comment {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.comment textarea {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.comment button {
+    margin-top: 10px;
+}
+
+.reply {
+    border-color: #ddd;
+    background-color: #f9f9f9;
+    margin-left: 20px; /* Indent replies for better visual hierarchy */
+}
+
+.reply-box {
+    margin-top: 10px;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 5px;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 600px) {
+    .comment {
+        padding: 8px;
+    }
+
+    .comment textarea, .reply-box textarea {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        padding: 6px;
+        font-size: 0.9rem;
+    }
+
+    .comment button, .reply-box button {
+        margin-top: 8px;
+        padding: 6px 12px;
+        font-size: 0.9rem;
+    }
+
+    .reply {
+        margin-left: 10px; /* Reduce indentation for replies on smaller screens */
+    }
+}

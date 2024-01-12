@@ -1,0 +1,13 @@
+.login-page, .signup-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.login-page h2, .signup-page h2 {
+    margin-bottom: 20px;
+    color: #333;
+}

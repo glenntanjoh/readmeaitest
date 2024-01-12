@@ -1,0 +1,17 @@
+version: '3'
+services:
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: B4aiwas-y0ung23
+      MYSQL_DATABASE: codeslime
+    volumes:
+      - db_data:/var/lib/mysql
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+volumes:
+  db_data:
